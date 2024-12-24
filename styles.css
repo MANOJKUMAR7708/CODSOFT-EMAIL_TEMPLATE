@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f8f3eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.email-container {
+  width: 500px; /* Increased size */
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.email-header {
+  background: #f2f2f2;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+}
+
+.email-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-body label {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.email-body input, .email-body textarea {
+  width: calc(100% - 20px); /* Adjusting to fit inside the container */
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.email-body textarea {
+  resize: none;
+  height: 120px;
+}
+
+.email-footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.email-footer button {
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.email-footer button:hover {
+  background: #e65c50;
+}
+
+.remind-btn, .draft-btn {
+  background: #ddd;
+  color: #555;
+}
+
+.remind-btn:hover, .draft-btn:hover {
+  background: #ccc;
+}

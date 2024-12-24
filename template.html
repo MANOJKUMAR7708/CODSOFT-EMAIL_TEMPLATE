@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Template</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="email-container">
+    <div class="email-header">
+      <h3>New Message</h3>
+      <button class="close-btn">&times;</button>
+    </div>
+    <div class="email-body">
+      <label for="to">To:</label>
+      <input type="text" id="to" placeholder="Recipient's Email">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" placeholder="Subject">
+      <textarea id="message" placeholder="Type your message here..."></textarea>
+    </div>
+    <div class="email-footer">
+      <button class="remind-btn">🔔 Remind Me</button>
+      <button class="draft-btn">💾 Save as Draft</button>
+      <button class="send-btn">📧 Send Now</button>
+    </div>
+  </div>
